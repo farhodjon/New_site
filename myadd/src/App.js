@@ -3,15 +3,19 @@ import Navbar from './componentes/Navbar';
 import Отзывы from './componentes/Отзывы'
 import Чтоэто from './componentes/Чтоэто'
 import Контакты from './componentes/Контакты'
+import Registiratsiya from './componentes/Registiratsiya';
 function App() {
   return (
     <div className="App">
-     <Navbar />
+     <Registiratsiya />
+     
+     {/* <Navbar /> */}
      <Routes >
-         <Route path='отзывы'element={<Отзывы />} />
+         <Route path='/'element={<Отзывы />} />
          <Route path='чтоэто'element={<Чтоэто />} />
          <Route path='контакты'element={<Контакты/>} />
      </Routes>
+
     </div>
   );
 }
