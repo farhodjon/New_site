@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.App {
+  border: solid 1px red;
+}
+.max_w {
+  padding: 0px 80px;
+  border: rgb(8, 8, 8) solid 1px;
+}
+
+/* Navbar start */
+.navbar {
+  background: linear-gradient(
+    269.91deg,
+    rgba(46, 49, 146, 0.7) 0%,
+    rgba(212, 20, 90, 0.7) 98.16%
+  );
+}
+.navbloc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0px;
+}
+.blocone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.blocone h4 {
+  font-size: 13px;
+  color: white;
+}
+.blocone i {
+  font-size: 20px;
+  color: white;
+  transition: all 0.5s;
+}
+.blocone:hover i {
+  transform: scale(1.3);
+}
+/* Navbar end */
+
+/* Navbar2 start */
+
+.bar2bloc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 0px;
+}
+.bloctu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bloctu .img {
+  width: 80px;
+}
+.bloctu .rasm {
+  width: 100px;
+}
+.bloctu ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bloctu ul li {
+  list-style: none;
+}
+.bloctu ul li a {
+  text-decoration: none;
+  padding-left: 30px;
+  color: #737373;
+  transition: all 0.5s;
+}
+.bloctu ul li a:hover {
+  color: black;
+}
+/* Navbar2 end */
+
+/* Bannner start */
+.banbloc {
+  background-image: url(./img/orqafon.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bloctri h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+.bloctri img {
+  width: 490px;
+}
+.bloctri p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+}
+.bloctri .btn1 {
+  width: 179px;
+  height: 53px;
+  background: linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
+  border-radius: 7px;
+  border: none;
+  color: white;
+  font-weight: 600;
+  transition: all 0.5s;
+  margin-top: 20px;
+  font-size: 20px;
+}
+.bloctri .btn1:hover {
+  background: linear-gradient(95.2deg, #9a0a97 99.51%, #b90160 2.23%);
+}
+
+/* Banner end */
+
+/* Cards start */
+.cards h1 {
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+}
+.cards h1 span {
+  color: #2e3192 ;
+
+}
+.carbloc {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card1 {
+  display: flex;
+  flex-direction: column;
+  border-radius: 9px;
+  flex-wrap: wrap;
+  width: 270px;
+  overflow: hidden;
+  box-shadow: 10px 15px 20px rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+.card1:hover {
+  transform: scale(1.2);
+}
+.card1 img {
+  width: 270px;
+  margin-bottom: 25px;
+}
+.card1 h3 {
+  font-weight: 800;
+  font-family: sans-serif;
+  padding: 0px 20px;
+}
+.card1 p {
+  padding: 7px 20px;
+  margin-bottom: 20px;
+}
